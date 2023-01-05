@@ -48,6 +48,7 @@ public class CreateRport extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         btnSave = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
         txtIDnum = new javax.swing.JTextField();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblReports = new javax.swing.JTable();
@@ -125,6 +126,10 @@ public class CreateRport extends javax.swing.JFrame {
                 btnDeleteRecActionPerformed(evt);
             }
         });
+
+        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(102, 51, 255));
+        jLabel9.setText("Create Ticket Report");
 
         jMenu1.setText("Options");
         jMenuBar1.add(jMenu1);
